@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GDSC NITC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<!-- FUTURISTIC GDSC CURSOR -->
+<div class="gdsc-cursor"></div>
+<div class="gdsc-cursor-ring"></div>
+<div class="gdsc-cursor-label"></div>
+
+<script src="cursor.js" defer></script>
+
+
+<body>
+  <!-- NAVBAR -->
+  <header class="header glass">
+    <div class="nav__inner">
+      <a href="/" class="nav__brand">
+        <img src="download (1).jpeg" alt="GDSC NITC logo" class="nav__logo" />
+        <span class="nav__title">GDSC NIT Calicut</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary navigation">
+        <a href="#activities">Activities</a>
+        <a href="#events">Events</a>
+        <a href="#announcements">Announcements</a>
+        <a href="#team">Members</a>
+        <button class="btn">Join US</button> 
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Google Developer Student Clubs · NIT Calicut</p>
+          <h1 id="hero-title" class="hero__title">
+            Build, learn, and ship together with GDSC NITC.
+          </h1>
+          <p class="hero__subtitle">
+            We’re a community of developers, designers, and tech enthusiasts at NIT Calicut
+            exploring real-world problems with Google technologies.
+          </p>
+
+          <div class="hero__actions">
+            <a href="/join" class="btn btn--ghost">Become a member</a>
+            <a href="#events" class="btn btn--ghost">View upcoming events</a>
+          </div>
+
+          <dl class="hero__stats" aria-label="Community stats">
+            <div>
+              <dt>150+</dt>
+              <dd>Active members</dd>
+            </div>
+            <div>
+              <dt>20+</dt>
+              <dd>Events every year</dd>
+            </div>
+            <div>
+              <dt>10+</dt>
+              <dd>Projects &amp; collaborations</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__card hero__card--code">
+            <span class="hero__chip">Workshop</span>
+            <pre><code>// Intro to Firebase
+auth()
+ .signIn()
+ .then(buildApp());</code></pre>
+          </div>
+
+          <div class="hero__card hero__card--pill">
+            <span class="hero__pill hero__pill--blue">Android</span>
+            <span class="hero__pill hero__pill--red">Web</span>
+            <span class="hero__pill hero__pill--yellow">ML</span>
+            <span class="hero__pill hero__pill--green">Cloud</span>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- WORKSHOP TIMELINE -->
+<section class="section workshop-timeline" aria-labelledby="timeline-title">
+  <div class="section__inner">
+    <div class="section__header">
+      <h2 id="timeline-title">Recent Workshops</h2>
+      <p>Hands-on sessions conducted by GDSC NIT Calicut</p>
+    </div>
+
+    <div class="timeline">
+      <!-- Item 1 -->
+      <div class="timeline__item">
+        <div class="timeline__content">
+          <span class="timeline__date">Sept 2025</span>
+          <h3>GDSC orientation</h3>
+          <p>
+            Introduced to the largest club of NITC
+          </p>
+        </div>
+        <div class="img-pop">
+          <img src="img1.jpg" alt="Workshop">
+        </div>
+
+      </div>
+
+      <!-- Item 2 -->
+      <div class="timeline__item timeline__item--reverse">
+        <div class="timeline__content">
+          <span class="timeline__date">Oct 2025</span>
+          <h3>Git and github</h3>
+          <p>
+            Jetpack Compose fundamentals and modern Git and Github practices.
+          </p>
+        </div>
+        <div class="img-pop">
+          <img src="img2.jpg" alt="Workshop">
+        </div>
+
+      </div>
+
+      <!-- Item 3 -->
+      <div class="timeline__item">
+        <div class="timeline__content">
+          <span class="timeline__date">Nov 2025</span>
+          <h3>Mega Workshop Series</h3>
+          <p>
+            From the world of UI_UX design to backend development.
+            From AI to Flutter application.
+          </p>
+        </div>
+        <div class="img-pop">
+          <img src="img3.jpg" alt="Workshop">
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- KEY ACTIVITIES & EVENTS -->
+    <section id="activities" class="section section--light" aria-labelledby="activities-title">
+      <div class="section__inner">
+        <div class="section__header">
+          <h2 id="activities-title">What we do</h2>
+          <p>
+            Hands-on activities, projects, and events designed to grow your skills and network.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Workshops &amp; Study Jams</h3>
+            <p>
+              Guided sessions on web, Android, ML, and cloud – from basics to advanced concepts.
+            </p>
+            <ul class="card__list">
+              <li>Live coding sessions</li>
+              <li>Beginner-friendly tracks</li>
+              <li>Google tech focused</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Projects &amp; Sprints</h3>
+            <p>
+              Build real-world solutions in small teams, guided by mentors and seniors.
+            </p>
+            <ul class="card__list">
+              <li>Problem statements from campus</li>
+              <li>Git &amp; collaboration</li>
+              <li>Showcase-ready outcomes</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Community &amp; Events</h3>
+            <p>
+              Hackathons, speaker sessions, and community meetups with alumni and industry experts.
+            </p>
+            <ul class="card__list">
+              <li>Google-powered events</li>
+              <li>Networking opportunities</li>
+              <li>Open to all branches</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Upcoming events block -->
+        <section id="events" class="subsection" aria-labelledby="events-title">
+          <div class="subsection__header">
+            <h3 id="events-title">Upcoming events</h3>
+            <a href="/events" class="link">View all events →</a>
+          </div>
+          <ul class="events">
+            <li class="events__item">
+              <div>
+                <p class="events__name">Intro to Cloud with Google Cloud</p>
+                <p class="events__meta">Seminar Hall · 21 Feb · 5:30 PM</p>
+              </div>
+              <span class="events__tag events__tag--soon">Registering</span>
+            </li>
+            <li class="events__item">
+              <div>
+                <p class="events__name">Android Study Jam: Compose Basics</p>
+                <p class="events__meta">Lab Block · 3 Mar · 2:00 PM</p>
+              </div>
+              <span class="events__tag">Limited seats</span>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </section>
+
+    <!-- ANNOUNCEMENTS -->
+    <section id="announcements" class="section" aria-labelledby="announcements-title">
+      <div class="section__inner">
+        <div class="section__header">
+          <h2 id="announcements-title">Announcements</h2>
+          <p>Stay updated on applications, results, and important club-wide updates.</p>
+        </div>
+
+        <div class="announcements">
+          <div class="announcements__filters" role="tablist" aria-label="Filter announcements">
+            <button class="announcements__filter announcements__filter--active" role="tab" aria-selected="true">
+              All
+            </button>
+            <button class="announcements__filter" role="tab" aria-selected="false">
+              Club
+            </button>
+            <button class="announcements__filter" role="tab" aria-selected="false">
+              Opportunities
+            </button>
+          </div>
+
+          <ul class="announcements__list">
+            <li class="announcements__item">
+              <p class="announcements__title">Core team applications are now open</p>
+              <p class="announcements__meta">Posted · 10 Feb</p>
+              <p class="announcements__body">
+                We’re looking for leads in web, Android, ML, design, and operations. Deadline: 18 Feb.
+              </p>
+              <a href="/announcements/core-team" class="link">Apply now →</a>
+            </li>
+
+            <li class="announcements__item">
+              <p class="announcements__title">GDSC Solution Challenge info session</p>
+              <p class="announcements__meta">Posted · 5 Feb</p>
+              <p class="announcements__body">
+                Learn how to take part in the global Solution Challenge and form teams on campus.
+              </p>
+              <a href="/announcements/solution-challenge" class="link">Details →</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM MEMBERS -->
+    <section id="team" class="section section--light" aria-labelledby="team-title">
+      <div class="section__inner">
+        <div class="section__header">
+          <h2 id="team-title">Meet the team</h2>
+          <p>The people coordinating events, projects, and community at GDSC NITC.</p>
+        </div>
+
+        <!-- Leads row -->
+        <div class="team team--leads" aria-label="Lead team">
+          <article class="team-card">
+            <img src="download (2).jpeg" alt="GDSC Lead: Name" class="team-card__avatar" />
+            <h3 class="team-card__name">Name Surname</h3>
+            <p class="team-card__role">GDSC Lead</p>
+            <p class="team-card__meta">CSE · Batch of 2023</p>
+          </article>
+
+          <article class="team-card">
+            <img src="download (2).jpeg" alt="Tech Lead: Name" class="team-card__avatar" />
+            <h3 class="team-card__name">Name Surname</h3>
+            <p class="team-card__role">Tech Lead</p>
+            <p class="team-card__meta">ECE · Batch of 2023</p>
+          </article>
+
+          <article class="team-card">
+            <img src="download (2).jpeg" alt="Design Lead: Name" class="team-card__avatar" />
+            <h3 class="team-card__name">Name Surname</h3>
+            <p class="team-card__role">Design &amp; Outreach</p>
+            <p class="team-card__meta">ME · Batch of 2023</p>
+          </article>
+        </div>
+
+        <!-- Core team grid -->
+        <div class="team team--grid" aria-label="Core team">
+          <article class="team-card team-card--small">
+            <h3 class="team-card__name">Krishna Jha</h3>
+            <p class="team-card__role">Web Dev</p>
+          </article>
+          <article class="team-card team-card--small">
+            <h3 class="team-card__name">Member Name</h3>
+            <p class="team-card__role">Android</p>
+          </article>
+          <article class="team-card team-card--small">
+            <h3 class="team-card__name">Member Name</h3>
+            <p class="team-card__role">ML</p>
+          </article>
+          <article class="team-card team-card--small">
+            <h3 class="team-card__name">Member Name</h3>
+            <p class="team-card__role">Cloud</p>
+          </article>
+          <!-- Add more cards as needed -->
+        </div>
+      </div>
+    </section>
+  </main>
+<section class="initiatives-rotary">
+
+    <!-- LEFT ROTATOR -->
+    <div class="rotary-left">
+
+      <div class="rotary-wheel" id="wheel">
+        <div class="rotary-item active">GSoC</div>
+        <div class="rotary-item">Induction</div>
+        <div class="rotary-item">Orientation</div>
+        <div class="rotary-item">Git&GitHUB</div>
+        <div class="rotary-item">Mega Workshop</div>
+      </div>
+
+      <div class="rotary-controls">
+        <button id="prev">←</button>
+        <button id="next">→</button>
+      </div>
+
+    </div>
+
+    <!-- RIGHT CONTENT -->
+    <div class="rotary-content">
+
+      <div class="content active">
+        <img src="img1.jpg">
+        <h3>GDSC 2025 Orientation</h3>
+        <!-- <p>Students collaborate on real-world open source projects.</p> -->
+      </div>
+
+      <div class="content">
+        <img src="img2.jpg">
+        <h3>Necessary of GIT & GITHUB</h3>
+        <!-- <p>Exploring ML, DL, and research discussions weekly.</p> -->
+      </div>
+
+      <div class="content">
+        <img src="img3.jpg">
+        <h3>GDSC Mega Workshop</h3>
+        <!-- <p>Weekly CP problem solving and contests.</p> -->
+      </div>
+
+      <div class="content">
+        <img src="img3.jpg">
+        <h3>Roadmap To GSoC</h3>
+        <!-- <p>Design thinking, Figma, and usability testing.</p> -->
+      </div>
+
+      <div class="content">
+        <img src="image.png">
+        <h3>Inductions for B25 & B24</h3>
+        <!-- <p>Design thinking, Figma, and usability testing.</p> -->
+      </div>
+
+    </div>
+
+  </section>
+  <!-- Pluging in my existing footer here -->
+  <footer>
+   <footer class="gdsc-footer" role="contentinfo">
+  <div class="footer-container">
+
+    <!-- Brand / About -->
+    <div class="footer-column footer-brand">
+      <h3>GDSC NIT Calicut</h3>
+      <p>
+        Google Developer Student Clubs is a community for students
+        interested in technology, development, and problem solving.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <nav class="footer-column" aria-label="Footer navigation">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#team">Core Team</a></li>
+        <li><a href="#announcements">Announcements</a></li>
+      </ul>
+    </nav>
+
+    <!-- Resources -->
+    <div class="footer-column">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="https://developers.google.com/" target="_blank">Google Developers</a></li>
+        <li><a href="https://gdsc.community.dev/" target="_blank">GDSC Community</a></li>
+        <li><a href="#code-of-conduct">Code of Conduct</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <ul class="footer-contact">
+        <li>Email: <a href="mailto:gdsc@nitc.ac.in">gdsc@nitc.ac.in</a></li>
+        <li>Location: NIT Calicut, Kerala</li>
+      </ul>
+
+      <div class="footer-social">
+        <a href="https://www.instagram.com/gdsc_nitc/" aria-label="Instagram" target="main"><img src="down.png" alt="instagram" height="20"/></a>
+        <a href="https://in.linkedin.com/company/gdsc-nit-calicut" aria-label="LinkedIn"><img src="link.png"height="20"></a>
+        <a href="" aria-label="GitHub"><img src="image.png"height="20"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 GDSC NIT Calicut.Made with 💖 by krishna.</p>
+  </div>
+</footer>
+
+  </footer>
+</body>
+</html>
